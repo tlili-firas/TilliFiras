@@ -26,8 +26,9 @@
         </div>
         <nav class="topbar__nav" id="navbar">
             <a class="nav-link nav-link--active" id="introNavBar" href="#intro">INTRO</a>
-            <a class="nav-link" href="#arsenal">ARSENAL</a>
+            <a class="nav-link" href="#arsenal">SKILLS</a>
             <a class="nav-link" href="#works">WORKS</a>
+            <a class="nav-link" href="#contact">CONTACT</a>
         </nav>
         <span class="material-symbols-outlined topbar__icon">terminal</span>
     </header>
@@ -63,7 +64,7 @@
         <section class="arsenal" id="arsenal">
             <div class="section-heading">
                 <span class="material-symbols-outlined section-heading__icon">architecture</span>
-                <h2 class="section-heading__title">The Arsenal</h2>
+                <h2 class="section-heading__title">Skills</h2>
             </div>
             
             <div class="skills-grid">
@@ -232,6 +233,50 @@
                 
             </div>
         </section>
+        <div class="divider"></div>
+
+        <section id="contact" class="contact">
+            <div class="works__header">
+                <div class="works__intro">
+                    <h2 class="works__title">Contact</h2>
+                    <p class="works__subtitle">Have a project in mind or just want to say hi? Feel free to reach out.</p>
+                </div>
+                <div class="works__meta">
+                    
+                    <span class="material-symbols-outlined works__meta-icon">arrow_downward</span>
+                </div>
+            </div>
+            <div class="contact__content">
+                <div class="contact__form">
+                    <form action="https://formspree.io/f/mrpglaov" method="POST" target="_blank">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="alex@mail.com" required>
+                        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
+
+                <div class="contact__socials">
+                    <span class="contact__socials-label">Socials</span>
+                    <div class="contact__socials-icons">
+                        <a href="https://www.linkedin.com/in/firas-tlili1/" target="_blank" rel="noopener noreferrer" class="contact__social-link">
+                            <i class="devicon-linkedin-plain"></i>
+                        </a>
+                        <a href="https://github.com/saskiiTN" target="_blank" rel="noopener noreferrer" class="contact__social-link">
+                            <i class="devicon-github-original"></i>
+                        </a>
+                    </div>
+                    <div >
+                        <span style="font-size: 2rem; margin-block:auto;vertical-align: middle;display: inline-block;" class="material-symbols-outlined bottom-nav__icon">mail</span>
+                        <a href="mailto:tlilifiras@proton.me" style="display: inline-block; text-align: center;"> : tlilifiras@proton.me</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <p>&copy; 2026 Tlili Firas. All rights reserved.</p>
+        </footer>
     </main>
 
     <!-- Bottom Nav (mobile only) -->
@@ -242,19 +287,18 @@
         </a>
         <a class="bottom-nav__item" href="#arsenal">
             <span class="material-symbols-outlined bottom-nav__icon">architecture</span>
-            <span class="bottom-nav__label">Arsenal</span>
+            <span class="bottom-nav__label">Skills</span>
         </a>
         <a class="bottom-nav__item" href="#works">
             <span class="material-symbols-outlined bottom-nav__icon">folder_open</span>
             <span class="bottom-nav__label">Works</span>
         </a>
+        <a class="bottom-nav__item" href="#contact">
+            <span class="material-symbols-outlined bottom-nav__icon">mail</span>
+            <span class="bottom-nav__label">Contact</span>
+        </a>
     </nav>
     
 </body>
-<div id="loader">
-  <img src="media/gothic-logo.png" alt="Logo" class="loader-logo" />
-  <div class="loader-bar">
-    <div class="loader-bar-fill"></div>
-  </div>
-</div>
+<!-- loader here -->
 </html>
